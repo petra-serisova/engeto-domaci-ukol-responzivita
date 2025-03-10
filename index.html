@@ -3,122 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Životopis</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Responzivita</title>
   </head>
   <body>
-    <div class="container">
-      <!-- sekce osobni informace -->
+    <!-- navigace -->
 
-      <section class="osobni-informace">
-        <h1>Ing. Petra Serišová</h1>
-        <img src="./foto/cats.png" alt="Fotka k životopisu" />
-        <p>
-          Kontaktní údaje:
-          <a href="mailto: petra.prijmeni@gmail.com"
-            >petra.prijmeni@gmail.com</a
-          >
-        </p>
-      </section>
+    <nav class="nav">
+      <div class="navigace-mobil">
+        <img
+          class="hamburger-menu"
+          src="images/hamburger_menu.png"
+          alt="ikona hamburger menu"
+        />
+      </div>
 
-      <hr />
+      <div class="navigace-desktop">
+        <div class="navigation-wrapper">
+          <ul class="navigation-list">
+            <li class="navigation-item"><a href="#">Home</a></li>
+            <li class="navigation-item"><a href="#">About Us</a></li>
+            <li class="navigation-item"><a href="#">Explore</a></li>
+            <li class="navigation-item"><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-      <!-- sekce shrnuti -->
+    <!-- hero section -->
 
-      <section class="shrnuti">
-        <h2>Souhrn:</h2>
-        <p>
-          Grafička s více než 14 lety zkušeností s přípravou tiskových dat,
-          která se učí tvořit webové stránky.
-        </p>
-      </section>
+    <hero-section>
+      <div class="hero-text">
+        <span class="text">
+          <h3>Exploring Icelandic Villages</h3>
+          <h1>Where Nature and Culture Converge</h1>
+        </span>
+      </div>
+    </hero-section>
 
-      <hr />
+    <!-- obrazek -->
 
-      <!-- sekce vzelani -->
-
-      <section class="vzdelani">
-        <h2>Vzdělání:</h2>
-        <table>
-          <tbody>
-            <tr class="hlavni-radek">
-              <td>Gymnázium Ľudovíta Štúra v Trenčíne</td>
-              <td>2000 - 2004</td>
-            </tr>
-            <tr class="druhy-radek">
-              <td>Slovenská poľnohosodárska univerzita v Nitre</td>
-              <td>2004 - 2010</td>
-            </tr>
-            <tr>
-              <td>Fakulta záhradníctva a krajinného inžinierstva</td>
-            </tr>
-            <tr>
-              <td class="posledni-radek">
-                Katedra záhradnej a krajinnej architektúry
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-
-      <hr />
-
-      <!-- sekce pracovni zkusenosti -->
-
-      <section class="pracovni-zkusenosti">
-        <h2>Pracovní zkušenosti:</h2>
-        <h4>
-          Reklamní agentura INA, graphic designer: prosinec 2010 - listopad 2011
-        </h4>
-        <ul>
-          <li>grafické návrhy: potisk reklamních předmětů, textilů...</li>
-          <li>
-            příprava tiskovin, letáků, inzercí, pozvánek, vizitek, bannerů
-          </li>
-        </ul>
-
-        <h4>AGF Media, dtp grafik: duben 2012 - duben 2014</h4>
-        <ul>
-          <li>příprava/úprava tiskových dat</li>
-          <li>zpracovávání podkladů pro tisk týdeníku 5plus2dny</li>
-          <li>zlom novinových stánek</li>
-          <li>návrhy tištěné inzerce</li>
-        </ul>
-
-        <h4>
-          Mediální skupina MAFRA a.s., dtp grafik: duben 2014 - prosinec 2024
-        </h4>
-
-        <ul>
-          <li>příprava/úprava tiskových dat</li>
-          <li>
-            zpracovávání tištěné inzerce pro MF DNES, Lidové noviny, METRO a
-            5plus2
-          </li>
-          <li>zlom měsíčníku CENTRUM Ostrava, zlom příloh</li>
-          <li>výroba banerů na web</li>
-        </ul>
-      </section>
-
-      <hr />
-
-      <!-- sekce dovednosti -->
-
-      <section class="dovednosti">
-        <h2>Dovednosti:</h2>
-        <ul>
-          <li>Adobe Indesign</li>
-          <li>Adobe Illustrator</li>
-          <li>Adobe Photoshop</li>
-          <li>AutoCad</li>
-          <li>anglický jazyk</li>
-          <li>německý jazyk</li>
-        </ul>
-      </section>
-    </div>
+    <div class="image-container"></div>
   </body>
 </html>
