@@ -1,0 +1,92 @@
+:root {
+  --main-color: rgb(9, 80, 168);
+  --bc-color-body: rgb(229, 229, 229);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--bc-color-body);
+  line-height: 1.3;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+h1,
+h2 {
+  font-family: "Pt Serif", serif;
+  color: var(--main-color);
+}
+
+img {
+  width: 200px;
+}
+
+.osobni-informace {
+  text-align: center;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+table {
+  background-color: var(--main-color);
+  color: white;
+  border-collapse: collapse;
+}
+
+table tr:first-child {
+  border-bottom: 1px solid white;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+.hlavni-radek td {
+  padding: 10px;
+}
+
+.druhy-radek td {
+  padding: 10px 10px 5px 10px;
+}
+
+.posledni-radek {
+  padding: 5px 10px 10px 10px;
+}
+
+li::marker {
+  color: var(--main-color);
+}
+
+.vzdelani {
+  margin-bottom: 20px;
+}
+
+hr {
+  height: 0px;
+  border: none;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+h4 span {
+  font-weight: 400;
+}
+
+a:hover {
+  color: var(--main-color);
+}
+
+a:active {
+  color: brown;
+}
+
+a:visited {
+  color: grey;
+}
